@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+.header,
+.custom-modal-header,
+.custom-card-header,
+.btn-custom {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
+.project-late {
+  background-color: var(--lightred);
+}
+
+.project-today {
+  background-color: var(--lightyellow);
+}
